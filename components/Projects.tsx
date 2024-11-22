@@ -8,7 +8,7 @@ export function Projects() {
   return (
     <div
       id="projects"
-      className="h-[40rem] w-full flex items-center justify-center bg-white dark:bg-black-100 bg-grid-black-100/[0.02] dark:bg-grid-white/[0.05] transition-colors duration-300"
+      className="h-[40rem] w-full flex items-center justify-start bg-white dark:bg-black-100 bg-grid-black-100/[0.02] dark:bg-grid-white/[0.05] transition-colors duration-300 overflow-x-auto space-x-4 pb-4 scroll-smooth"
     >
       {ProjItems.map((item, index) => (
         <div

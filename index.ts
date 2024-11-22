@@ -25,6 +25,12 @@ export const ProjItems = [
     {title: 'link: Github', href: 'https://github.com/pokerty/medical-chatbot-grab', heading:"Grab Medical Chatbot", description:" Deployment of PyTorch chatbot with Flask",imageSrc: 'https://c8.alamy.com/comp/2M3N807/medical-robot-vector-illustration-chatbot-out-of-screen-monitor-holds-speech-bubbles-with-medical-icons-medical-bot-answers-questions-of-patients-2M3N807.jpg', },
     {title: 'link: Github', href: 'https://github.com/pokerty/find-my-hdb-swe', heading:"Find My HDB", description:"Web App to find HDB apartment based on amenities requested",     imageSrc: 'https://dkc9trqgco1sw.cloudfront.net/s3fs-public/styles/simplecrop_article/public/field/image/BLD_HDB_MEI_LING_ST_MAR2022_SIC%201200_0.jpg?NnkzTwKAqiQFjnqZZ8T6pMhFaOXAdpz3',
     },
+    {title: 'link: Github', href: 'https://github.com/pokerty/network-analysis-fmri-abide-fyp', heading:"Network Analysis on fMRI Data", description:"Network analysis and machine learning classifiers on fmri neuro-imaging dataset abide for ASD classification",     imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJjNHWSSIsrBb3db6-lADitK83HHkKxmyXg&s',
+    },
+    {title: 'link: Github', href: 'https://github.com/pokerty/cost-estimation-sql-dbms', heading:"SQL query cost estimator", description:"Using Postgres to estimate the cost of executing an SQL query",     imageSrc: 'https://cdn.prod.website-files.com/6064b31ff49a2d31e0493af1/66a47686d17c50595ab25075_AD_4nXef8kg1j8Ne3QwQ5VMAVaubMxxFEPvv4gFeYFtVv3S9OQtr9DUgSicnoU2ONDCCwi0wdX7z9So0gE1lLnsvAfzDtGfXYLhsJaLdSCiQU6MEoi0Wapsol5RWbNKBB6hQnIgqtzJ2-zWKrJQMUb2IocBFxK1_.png',
+    },
+    {title: 'link: Github', href: 'https://github.com/pokerty/textrank-pagerank-aimd-cloud', heading:"Textrank and Pagerank implementation and analysis", description:"Google's Pagerank algorithm efficiency analysis with an implementation for NLP, Textrank",     imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/PageRanks-Example.svg',
+    },
 ]
 
 export const TestimonialItems = [
