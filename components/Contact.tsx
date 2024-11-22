@@ -30,7 +30,6 @@ export function Contact() {
         <MagicButton
           title={copied ? "Email Copied!" : "Let's Collaborate!"}
           icon={<FaCopy />}
-          position="right"
           handleClick={copyToClipboard}
         />
       </div>
