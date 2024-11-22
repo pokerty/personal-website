@@ -8,7 +8,6 @@ import {
 } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import {NavItems} from '../index'
 
 export const FloatingNav = ({
   navItems,
@@ -17,7 +16,6 @@ export const FloatingNav = ({
   navItems: {
     name: string;
     link: string;
-    icon?: JSX.Element;
   }[];
   className?: string;
 }) => {
@@ -69,7 +67,6 @@ export const FloatingNav = ({
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
           >
-            <span className="block sm:hidden">{navItem.icon}</span>
             <span className="hidden sm:block text-sm">{navItem.name}</span>
           </Link>
         ))}

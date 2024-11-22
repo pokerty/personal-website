@@ -5,13 +5,11 @@ import { useTheme } from "next-themes";
 const MagicButton = ({
   title,
   icon,
-  position,
   handleClick,
   otherClasses,
 }: {
   title: string;
   icon: React.ReactNode;
-  position: string;
   handleClick?: () => void;
   otherClasses?: string;
 }) => {

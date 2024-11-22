@@ -1,4 +1,4 @@
-import { FaHome } from "react-icons/fa";
+// import { FaHome } from "react-icons/fa";
 import { NavItems } from "..";
 import Hero from "../components/Hero";
 import FloatingNav from "../components/FloatingNavbar";

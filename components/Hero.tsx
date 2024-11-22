@@ -9,7 +9,7 @@ import { ModeToggle } from "./ThemeProvider"
 
 const Hero = () => {
   return (
-    <div className="pb-64 pt-32" id="home">
+    <div className="pb-[28rem] pt-32" id="home">
         <div>
         <Spotlight
             className="-top-20 -left-20 md:-left-40 md:-top-40 h-[100vh]"

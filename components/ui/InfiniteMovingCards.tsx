@@ -2,7 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
-import MagicButton from "./MagicButton";
 import { IconType } from "react-icons";
 
 export const InfiniteMovingCards = ({
@@ -11,7 +10,6 @@ export const InfiniteMovingCards = ({
   speed = "fast",
   pauseOnHover = true,
   className,
-  email,
 }: {
   items: {
     link?: string;
@@ -23,7 +21,6 @@ export const InfiniteMovingCards = ({
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
   className?: string;
-  email?: string;
 }) => {
   const containerRef = React.useRef<HTMLDivElement>(null);
   const scrollerRef = React.useRef<HTMLUListElement>(null);

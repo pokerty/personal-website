@@ -347,9 +347,11 @@ export const SkeletonSix = ({
       transition={{ duration: 0.5 }}
       className="relative w-full h-56 rounded-lg overflow-hidden"
     >
-      <img
+      <Image
         src={src}
         alt={alt}
+        height="800"
+        width="800"
         className="w-full h-full object-cover"
         loading="lazy"
         onError={(e) => {
