@@ -61,7 +61,7 @@ const GridItems = [
         Bunch.
       </span>
     ),
-    header: <SkeletonSix src="/images/skills.jpg" alt="My skills"/>,
+    header: <SkeletonSix src="https://i.imgur.com/9MQ9YiW.jpeg" alt="My skills"/>,
     className: "md:col-span-1",
     icon: <IconDeviceDesktop className="h-4 w-4 text-neutral-500" />,
   },
@@ -73,7 +73,7 @@ const GridItems = [
         AI Software Engineering Intern - cynapse ptd ltd.
       </span>
     ),
-    header: <SkeletonSix src="/images/work.jpg" alt="My work"/>,
+    header: <SkeletonSix src="https://i.imgur.com/QJnd3FN.jpeg" alt="My work"/>,
     className: "md:col-span-2",
     icon: <IconBriefcase2 className="h-4 w-4 text-neutral-500" />,
   },
@@ -85,7 +85,7 @@ const GridItems = [
         Photography. Sports. Music.
       </span>
     ),
-    header: <SkeletonSix src="/images/photography.jpg" alt="My hobbies"/>,
+    header: <SkeletonSix src="https://i.imgur.com/tbvssPh.jpeg" alt="My hobbies"/>,
     className: "md:col-span-1",
     icon: <IconPingPong className="h-4 w-4 text-neutral-500" />,
   },

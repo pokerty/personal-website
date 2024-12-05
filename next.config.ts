@@ -51,6 +51,32 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**', 
       },
+      {
+        protocol: 'https',
+        hostname: 'drive.google.com',
+        port: '',
+        pathname: '/file/**',
+      },
+      // Alternative: Use direct Google Drive content URL
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.imgur.com',  // For Imgur
+        port: '',
+        pathname: '/**',
+      },
+      // or for ImgBB
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+        port: '',
+        pathname: '/**',
+      }
     ],
   },
 };
