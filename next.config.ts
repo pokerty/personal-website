@@ -1,10 +1,6 @@
 import type { NextConfig } from "next";
-const isProd = process.env.NODE_ENV === 'production'
 
-const nextConfig = {
-  output: 'export',
-  basePath: isProd ? '/personal-website' : '',
-  assetPrefix: isProd ? '/personal-website/' : '',
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
@@ -35,7 +31,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'pbs.twimg.com',
         port: '',
-        pathname: '/**',
+        pathname: '/**', 
       },
       {
         protocol: 'https',
@@ -56,7 +52,6 @@ const nextConfig = {
         pathname: '/**', 
       },
     ],
-    unoptimized: true,
   },
 };
 
