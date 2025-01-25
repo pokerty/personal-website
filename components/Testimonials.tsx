@@ -12,7 +12,7 @@ export function Testimonials() {
   ));
 
   return <div id="Testimonials" className="bg-grid-black-100/[0.005] dark:bg-grid-white/[0.01]">
-    <AnimatedTestimonials testimonials={testimonials} />;
+    <AnimatedTestimonials testimonials={testimonials} />
     </div>
 }
 

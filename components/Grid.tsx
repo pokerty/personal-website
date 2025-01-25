@@ -14,7 +14,7 @@ import {
 
 export function Grid() {
   return (
-    <div id="about" className="bg-white dark:bg-black-100 bg-grid-black-100/[0.02] dark:bg-grid-white/[0.05] py-4">
+    <div id="about" className="bg-white dark:bg-black-100 bg-grid-black-100/[0.02] dark:bg-grid-white/[0.05] py-4 -mt-64">
     <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
       {GridItems.map((item, i) => (
         <BentoGridItem
