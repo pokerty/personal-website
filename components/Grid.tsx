@@ -39,7 +39,7 @@ const GridItems = [
         Computing graduate keen on problem solving.
       </span>
     ),
-    header: <SkeletonSix src="https://media.licdn.com/dms/image/v2/C5603AQE-oL6-wzr7gg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1642847698546?e=1737590400&v=beta&t=YLOJoxwG8m4YqtwiY8r96vFbjTQSRaGxyh0K4qauXOM" alt="Chen Hongpo"/>,
+    header: <SkeletonSix src="https://i.imgur.com/hp6zQdD.jpeg" alt="Chen Hongpo"/>,
     className: "md:col-span-1",
     icon: <IconMeeple className="h-4 w-4 text-neutral-500" />,
   },

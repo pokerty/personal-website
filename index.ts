@@ -34,7 +34,7 @@ export const ProjItems = [
 ]
 
 export const TestimonialItems = [
-    {name: 'Louis Creteur', quote: 'Hongpo has been working with us for 6 months and became a real team member at Amplified Industries. Everyone really enjoyed working with him. Smart and hard worker, Hongpo quickly understood all the specific needs of the company and helped us a lot by working on very advanced and complicated data science and OPS subjects. We all wish he could have stayed longer.', designation:"CTO at Amplified Industries - Forbes 30 Under 30", src: "https://media.licdn.com/dms/image/v2/C5603AQF6oezygaXwAQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517429388947?e=1737590400&v=beta&t=G7NjR5Hk19I_wRdpAsols5CUV2W4RBEHmX06HiSxVNw"},
+    {name: 'Louis Creteur', quote: 'Hongpo has been working with us for 6 months and became a real team member at Amplified Industries. Everyone really enjoyed working with him. Smart and hard worker, Hongpo quickly understood all the specific needs of the company and helped us a lot by working on very advanced and complicated data science and OPS subjects. We all wish he could have stayed longer.', designation:"CTO at Amplified Industries - Forbes 30 Under 30", src: "https://i.imgur.com/mkroUNW.jpeg"},
     {name: 'Your Name Here', quote: 'This could be you, what are you waiting for?', designation:"..", src: "https://thumbs.dreamstime.com/b/coming-soon-web-page-poster-stay-tuned-message-coming-soon-web-page-poster-stay-tuned-message-vector-340165708.jpg"},
     
 ]
