@@ -58,7 +58,7 @@ const GridItems = [
     title: "My Skills",
     description: (
       <span className="text-sm">
-        Bunch.
+        Strong focus on Python, AI Models, Computer Vision, AWS, PostgresSQL.
       </span>
     ),
     header: <SkeletonSix src="https://i.imgur.com/9MQ9YiW.jpeg" alt="My skills"/>,

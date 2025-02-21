@@ -55,7 +55,7 @@ const Hero = () => {
             />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-black dark:text-white">
-                Hi! I&apos;m Hongpo, a fresh college graduate based in Singapore.
+                Hi! I&apos;m Marshall (or Hongpo), a fresh college graduate based in Singapore.
             </p>
 
             <a href="#about">
