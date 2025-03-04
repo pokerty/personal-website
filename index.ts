@@ -47,7 +47,7 @@ export const ContactItems = [
       description: "Check out my projects and contributions"
     },
     {
-      link: "https://www.linkedin.com/in/chen-hongpo-3644931aa/",
+      link: "https://www.linkedin.com/in/marshall-c-3644931aa/",
       name: "My LinkedIn",
       icon: FaLinkedin,
       description: "Connect with me professionally"
